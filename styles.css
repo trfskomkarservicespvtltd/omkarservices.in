@@ -1,0 +1,92 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #222;
+}
+header, section, footer {
+  padding: 2rem 1rem;
+  max-width: 1100px;
+  margin: auto;
+}
+h1, h2 {
+  color: #004080;
+  margin-bottom: 1rem;
+}
+p, li {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+ul {
+  padding-left: 1.2rem;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.cta-button {
+  display: inline-block;
+  background-color: #004080;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0.5rem 0;
+  transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+  background-color: #0066cc;
+}
+details summary {
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.75rem;
+  background: #eef5ff;
+  border: 1px solid #ccddee;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+details p {
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border-left: 4px solid #004080;
+  margin: 0;
+}
+footer {
+  background: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  header, section, footer {
+    padding: 3rem 2rem;
+  }
+  .cta-button {
+    font-size: 1.1rem;
+  }
+  ul {
+    font-size: 1.05rem;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  .cta-button {
+    width: 100%;
+    font-size: 1rem;
+  }
+  p, li {
+    font-size: 0.95rem;
+  }
+}
